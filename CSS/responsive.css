@@ -1,0 +1,116 @@
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: none;
+        flex-direction: column; 
+        align-items: center;
+      }
+    
+      .navbar.show {
+        display: flex; 
+      }
+    
+      .navbar a {
+        padding: 15px; 
+        border-bottom: 1px solid var(--fourth-color);
+      }
+    
+      header{
+        padding: 20px 20px; 
+      }
+    
+      .logo {
+        font-size: 1.5rem; 
+      }
+
+
+    section {
+      padding: 10rem 5%;
+      overflow-x: auto;
+    }
+  
+    .home-text h1 {
+        margin-right:1rem !important;
+      font-size: 4.2rem;
+    }
+  
+    .home-text p {
+      font-size: 1.5rem;
+      margin-right:2rem;
+    }
+
+    .quotes h1 {
+        font-size: 2rem;
+        margin: 2rem 0;
+      }
+
+      .about {
+        flex-direction: column; 
+        text-align: left; 
+        gap: 2rem;
+    }
+
+    .about img {
+        height: auto; 
+        max-width: 100%; 
+    }
+
+    .about-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-text p {
+        font-size: 1.8rem; 
+    }
+
+    .skill {
+        grid-template-columns: repeat(1fr); 
+    }
+
+    .skill h1 {
+        font-size: 2.5rem; 
+        margin-bottom:1rem;
+    }
+
+    .skill ul li {
+        text-align: right;
+        font-weight:400;
+    }
+
+    .project-box {
+        margin: 1rem; 
+    }
+
+    .project-img img {
+        width: 100%; 
+    }
+
+    .project h1 {
+        text-align: center; 
+        margin: 1rem; 
+        font-size: 2.5rem; 
+    }
+    .project h1:hover{
+        letter-spacing:0;
+    }
+
+    .project .small {
+        text-align: center; 
+        letter-spacing:0;
+    }
+
+    .sociala {
+        display:flex;
+    }
+
+    .sociala li{
+        margin-left:2rem;
+    }
+
+    .contactbox {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
+    #contact-form {
+        width: 90%; 
+    }
+}
