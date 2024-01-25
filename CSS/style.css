@@ -149,7 +149,8 @@ header {
 
   .home-text h1{
     color: var(--fourth-color);
-    font-size: 8rem;
+    font-size: 9rem;
+    text-align:center;
   }
 
   .home-text .iman{
@@ -245,7 +246,7 @@ header {
 
 .skill h1{
     text-align: left;
-    font-size: 3rem;
+    font-size: 3.5rem;
     border-bottom: 1px solid #000;
     transition: .3s;
 }
@@ -259,7 +260,7 @@ header {
 .skill ul li{
     text-align: right;
     margin-bottom:1rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 3rem;
     font-weight: 600;
 }
