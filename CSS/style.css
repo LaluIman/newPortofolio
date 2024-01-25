@@ -249,6 +249,7 @@ header {
     font-size: 3.5rem;
     border-bottom: 1px solid #000;
     transition: .3s;
+    margin-bottom:1rem;
 }
 
 .skill h1:hover{
@@ -375,6 +376,7 @@ input::placeholder {
 }
 
 #contact-form button {
+  cursor:none;
     color: #EBE3D5;
     width: auto;
     margin: 20px auto;
