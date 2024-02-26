@@ -4,7 +4,7 @@ gsap.registerPlugin();
 gsap.from(".logo", { opacity: 0, duration: 1, delay: 3.5, y: -50, ease: "power2.out" });
 gsap.from(".navbar a", { opacity: 0, duration: 1, delay: 3.5, y: -20, ease: "power2.out", stagger: 0.2 });
 
-// Adding a GSAP event listener to toggle the 'active' class on hover
+
 document.querySelectorAll('.navbar a').forEach((link) => {
     link.addEventListener('mouseenter', () => {
         link.querySelector('::before').classList.add('active');
@@ -16,7 +16,7 @@ document.querySelectorAll('.navbar a').forEach((link) => {
 });
 // nav end
 
-// home
+// home section for lalu iman text
 gsap.from('.home-text h1', {
     opacity: 0,
     y: 50,
@@ -35,9 +35,9 @@ gsap.from('.home-text h1', {
   gsap.from('.home-text p', {
     opacity: 0,
     y: 50,
-    duration: 1.5, // Make the duration slower for the <p> element
+    duration: 1.5, 
     ease: 'power4.out',
-    delay: 2.5, // Add a delay for the <p> element
+    delay: 2.5, 
     scrollTrigger: {
       trigger: '.home-text',
       start: 'top 80%',
