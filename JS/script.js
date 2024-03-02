@@ -103,3 +103,5 @@ ScrollReveal({
  ScrollReveal().reveal('.about-img, .quotes h1, .skill h1', { origin: 'left'});
  ScrollReveal().reveal('.about-text, .heading', { origin: 'top'});
  ScrollReveal().reveal('.skill ul li, .project-img h1, .sociala li', { origin: 'right'});
+
+
