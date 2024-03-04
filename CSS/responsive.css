@@ -30,7 +30,7 @@
   
     .home-text h1 {
         margin-right:1rem !important;
-      font-size: 4.2rem;
+      font-size: 4rem;
       text-align:left;
     }
   
@@ -122,6 +122,7 @@
     }
 }
 
+/* btuuun */
 @media (max-width: 768px) {
   .back-btn {
     margin: 1rem;
@@ -129,6 +130,14 @@
 
   .back {
     background-color: #F3EEEA;
+    font-size: 0.95rem;
+  }
+
+  .btnnnn{
+    font-size: 1rem;
+  }
+
+  #contact-form button {
     font-size: 1rem;
   }
 

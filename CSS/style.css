@@ -265,7 +265,7 @@ header {
   visibility: hidden;
   min-width: 250px;
   margin-left: -125px;
-  background-color: #333;
+  background-color: #F3EEEA;
   color: #fff;
   text-align: center;
   border-radius: 5px;
@@ -506,7 +506,7 @@ input::placeholder {
 }
 
 #contact-form button {
-  background-color: none;
+  background-color: #F3EEEA;
   margin-top: 2rem;
   cursor:none;
   display: flex;
