@@ -225,6 +225,13 @@ header {
 
 .about img{
     height: 70vh;
+    box-shadow: 10px 10px 10px rgb(148, 148, 148);
+    transition: all .5s ease;
+}
+
+.about img:hover{
+  box-shadow: none;
+  transform: scale(1.1);
 }
 
 .about-text h1{
