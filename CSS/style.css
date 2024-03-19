@@ -108,7 +108,7 @@ header {
   
   .logo {
     color: var(--fourth-color);
-    font-weight: 600;
+    font-weight:bolder;
     font-size: 1.5rem;
     cursor: none;
   }
@@ -170,7 +170,7 @@ header {
     color: var(--fourth-color);
     font-size: 2rem;
     font-weight: 400;
-    text-align: right;
+    text-align: center;
     border-bottom: 1px solid #000;
   }
 
@@ -225,13 +225,12 @@ header {
 
 .about img{
     height: 70vh;
-    box-shadow: 10px 10px 10px rgb(148, 148, 148);
+    box-shadow: 10px 10px 10px rgb(179, 179, 179);
     transition: all .5s ease;
 }
 
 .about img:hover{
   box-shadow: none;
-  transform: scale(1.1);
 }
 
 .about-text h1{
