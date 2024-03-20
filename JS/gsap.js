@@ -35,7 +35,8 @@ gsap.from('.home-text h1', {
     start: 'top 80%',
     end: 'top 30%',
     scrub: true,
-    markers: false
+    markers: false,
+    stagger: 0.2
   }
 });
 
@@ -50,7 +51,7 @@ gsap.from('.home-text p', {  // Animate the paragraph element
   scrollTrigger: {
     trigger: '.home-text',
     start: 'top 80%',
-    end: 'top 30%',
+    end: 'top 40%',
     scrub: 2, // Slower animation progression during scroll
     markers: true
   }
