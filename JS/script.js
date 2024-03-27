@@ -94,14 +94,12 @@ window.onscroll= () => {
 
 ScrollReveal({ 
     reset: true,
-    distance:'150px',
-    duration:1000,
-    delay:200
+    distance:'250px',
+    duration:1000
  });
 
- ScrollReveal().reveal('.home, .about .about-text p, .project-img a, .contact', { origin: 'bottom'});
- ScrollReveal().reveal('.about-img, .quotes h1, .skill h1', { origin: 'left'});
- ScrollReveal().reveal('.about-text, .heading', { origin: 'top'});
- ScrollReveal().reveal('.skill ul li, .project-img h1, .sociala li', { origin: 'right'});
+ ScrollReveal().reveal('.home, .project-img a, .contact', { origin: 'bottom'});
+ ScrollReveal().reveal('.quotes h1,.about .about-img', { origin: 'left'});
+ ScrollReveal().reveal('.skill ul li', { origin: 'right'});
 
 
