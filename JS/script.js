@@ -95,7 +95,7 @@ window.onscroll= () => {
 ScrollReveal({ 
     reset: true,
     distance:'250px',
-    duration:2000,
+    duration:1000,
  });
 
  ScrollReveal().reveal('.home, .project-img a, .contact', { origin: 'bottom'}),
