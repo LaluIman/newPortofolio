@@ -95,11 +95,11 @@ window.onscroll= () => {
 ScrollReveal({ 
     reset: true,
     distance:'250px',
-    duration:1000
+    duration:2000,
  });
 
- ScrollReveal().reveal('.home, .project-img a, .contact', { origin: 'bottom'});
+ ScrollReveal().reveal('.home, .project-img a, .contact', { origin: 'bottom'}),
  ScrollReveal().reveal('.quotes h1,.about .about-img', { origin: 'left'});
- ScrollReveal().reveal('.skill ul li', { origin: 'right'});
+
 
 

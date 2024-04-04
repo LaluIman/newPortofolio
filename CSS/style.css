@@ -139,7 +139,7 @@ header {
 
 
   section{
-    padding: 15rem 10%;
+    padding: 10rem 10%;
   }
 
   .home{
@@ -149,7 +149,7 @@ header {
 
   .home-text h1{
     color: var(--fourth-color);
-    font-size: 9rem;
+    font-size: 11rem;
     text-align:center;
   }
 
@@ -166,7 +166,7 @@ header {
  
 
   .home-text p{
-    margin-top: 1rem;
+    margin-top: 4rem;
     color: var(--fourth-color);
     font-size: 2rem;
     font-weight: 400;
@@ -313,6 +313,10 @@ header {
 .skill{
     display: grid;
     grid-template-columns: repeat(1fr);
+}
+
+.skill-content{
+      padding: 1rem;
 }
 
 .skill h1{
