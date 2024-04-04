@@ -139,7 +139,7 @@ header {
 
 
   section{
-    padding: 10rem 10%;
+    padding: 15rem 10%;
   }
 
   .home{
@@ -189,7 +189,7 @@ header {
 
 
    .quotes h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--fourth-color);
     font-weight: 600;
     margin:4rem 0 4rem 0;
