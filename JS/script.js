@@ -5,7 +5,7 @@ const cursorCircle = cursor.querySelector('.cursor__circle');
 
 const mouse = { x: -100, y: -100 }; 
 const pos = { x: 0, y: 0 }; 
-const speed = 0.1; 
+const speed = 0.2; 
 
 const updateCoordinates = e => {
   mouse.x = e.clientX;
@@ -70,7 +70,7 @@ cursorModifiers.forEach(curosrModifier => {
   });
 });
 
-// scroll section active link
+
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header a');
 
@@ -94,8 +94,8 @@ window.onscroll= () => {
 
 ScrollReveal({ 
     reset: true,
-    distance:'250px',
-    duration:1000,
+    distance:'210px',
+    duration:800,
  });
 
  ScrollReveal().reveal('.home, .project-img a, .contact', { origin: 'bottom'}),

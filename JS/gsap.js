@@ -1,23 +1,23 @@
 // nav
-gsap.registerPlugin(); // Register GSAP plugin
+gsap.registerPlugin(); 
 
-// Animation for logo (modify clip-path inset value if needed)
+
 gsap.from(".logo", {
-  clipPath: "inset(100% 0px 0px 0px)",  // Clip logo initially
+  clipPath: "inset(100% 0px 0px 0px)", 
   height: 0,
   duration: 1,
   delay: 2.5,
   ease: "power2.out"
 });
 
-// Animation for navbar links (modify clip-path inset value if needed)
+
 gsap.from(".navbar a", {
-  clipPath: "inset(100% 0px 0px 0px)",  // Clip links initially
+  clipPath: "inset(100% 0px 0px 0px)",  
   height: 0,
   duration: 1,
-  delay: 2.6,
+  delay: 2.5,
   ease: "power2.out",
-  stagger: 0.2  // Maintain stagger effect
+  stagger: 0.2  
 });
 
 // nav end
@@ -33,7 +33,7 @@ gsap.from('.home-text h1', {
   scrollTrigger: {
     trigger: '.home-text',
     start: 'top 80%',
-    end: 'top 30%',
+    end: 'top 0%',
     scrub: true,
     markers: false,
     stagger: 0.2
@@ -49,15 +49,12 @@ gsap.from('.home-text p', {
   delay: 2, 
   scrollTrigger: {
     trigger: '.home-text',
-    start: 'top 80%',
+    start: 'top 100%',
     end: 'top 40%',
     scrub: 2, 
     markers: true
   }
 });
-
-
-
 
 // home end
 
