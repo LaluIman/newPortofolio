@@ -104,7 +104,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 80px;
+    padding: 20px 100px;
     background-color: #f3eeea00;
     backdrop-filter: blur(3px);
   }
