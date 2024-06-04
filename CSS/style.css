@@ -1,3 +1,15 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+*{
+  font-family: 'SF Pro Display', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
 html{
     cursor: none;
     overflow-x: hidden;
@@ -68,16 +80,7 @@ body{
   }
   
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Tampilan SF Pro', sans-serif;
-    font-family:'SF Pro Display', sans-serif ;
-    text-decoration: none;
-    list-style: none;
-    scroll-behavior: smooth;
-}
+
 
 
 :root{
@@ -101,15 +104,14 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 100px;
+    padding: 20px 80px;
     background-color: #f3eeea00;
     backdrop-filter: blur(3px);
   }
   
   .logo {
-    color: var(--fourth-color);
-    font-weight:bolder;
-    font-size: 1.5rem;
+    width: 5%;
+    height: 5%;
     cursor: none;
   }
   
@@ -121,7 +123,7 @@ header {
     cursor: none;
     color: var(--fifth-color);
     font-size: 1.1rem;
-    padding: 25px;
+    padding: 20px;
     font-weight: 400;
     transition: .5s;
     position: relative;
@@ -133,7 +135,6 @@ header {
     font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 2px;
-    border-bottom: 1.5px solid var(--fourth-color);
   }
   
 
@@ -163,6 +164,28 @@ header {
     -webkit-text-stroke: .10rem var(--fourth-color);
     letter-spacing: 1.3rem;
   }
+
+  .line{
+    position: absolute;
+    top: 50%;
+    width: 110%;
+    z-index: -10;
+  }
+
+  .line2{
+    position: absolute;
+    top: 400%;
+    width: 110%;
+    z-index: -10;
+  }
+
+  .line3{
+    position: absolute;
+    top: 1000%;
+    width: 110%;
+    z-index: -10;
+  }
+ 
  
 
   .home-text p{
@@ -187,12 +210,13 @@ header {
   }
 
 
-
+  
    .quotes h1{
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: var(--fourth-color);
     font-weight: 600;
     margin:4rem 0 4rem 0;
+    text-align: center;
    }
 
 
@@ -235,7 +259,7 @@ header {
 
 .about-text h1{
     text-align: left;
-    font-size: 3rem;
+    font-size: 3.2rem;
 }
 
 .about-text p{

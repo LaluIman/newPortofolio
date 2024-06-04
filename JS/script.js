@@ -92,9 +92,11 @@ window.onscroll= () => {
 
 
 
+
+
 ScrollReveal({ 
     reset: true,
-    distance:'210px',
+    distance:'250px',
     duration:800,
  });
 
