@@ -94,14 +94,6 @@ window.onscroll= () => {
 
 
 
-ScrollReveal({ 
-    reset: true,
-    distance:'300px',
-    duration:800,
- });
-
- ScrollReveal().reveal('.home, .project-img a, .contact', { origin: 'bottom'}),
- ScrollReveal().reveal('.quotes h1,.about .about-img', { origin: 'left'});
 
 
 
