@@ -8,6 +8,7 @@
   text-decoration: none;
   list-style: none;
   scroll-behavior: smooth;
+  scroll-padding-top: 150px;
 }
 
 html{
