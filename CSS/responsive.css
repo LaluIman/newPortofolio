@@ -19,7 +19,6 @@
       }
     
       .logo {
-        object-fit: contain;
         width: 10%;
         height: 10%;
       }
